@@ -1,3 +1,5 @@
+# Un array o tabla es un tipo de dato capaz de almacenar múltiples valores. Se utiliza para agrupar datos muy parecidos, por ejemplo, si se necesita almacenar la temperatura media diaria en Palma durante el último año se pueden utilizar las variables temp0, temp1, temp2, temp3, temp4, … y así hasta 365 variables distintas pero sería poco práctico; es mejor utilizar un array de nombre temp y usar un índice para referenciar la temperatura de un día concreto del año.
+
 # Ejemplo 1. En el siguiente ejemplo se muestra un array de 4 números de tipo double que almacena notas de alumnos.
 
       Algoritmo CalculoNotaMedia
