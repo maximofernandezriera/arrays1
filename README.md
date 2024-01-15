@@ -1,7 +1,31 @@
-# 1. Escribir una aplicación que solicite al usuario cuántos números desea introducir. A continuación, introducir por teclado esa cantidad de números enteros, y por último, mostrar en el orden inverso al introducido.
+# Ejemplo 1. En el siguiente ejemplo se muestra un array de 4 números de tipo double que almacena notas de alumnos.
 
-# 2. Para recorrer un array de un modo más práctico y sencillo, sin que tengamos que
-preocuparnos de los límites, podemos utilizar el bucle for con el formato foreach
+      Algoritmo CalculoNotaMedia
+          Dimension nota[4]
+      
+          Escribir "Para calcular la nota media necesito saber la nota de cada uno de tus exámenes."
+      
+          Para i = 0 Hasta 3 Paso 1 Hacer
+              Escribir "Nota del examen nº ", i + 1, ": "
+              Leer nota[i]
+          Fin Para
+      
+          Escribir "Tus notas son: "
+      
+          suma = 0
+      
+          Para i = 0 Hasta 3 Paso 1 Hacer
+              Escribir nota[i], "  "
+              suma = suma + nota[i]
+          Fin Para
+      
+          Escribir "La media es ", suma / 4
+      FinAlgoritmo
+
+
+# 2. Escribir una aplicación que solicite al usuario cuántos números desea introducir. A continuación, introducir por teclado esa cantidad de números enteros, y por último, mostrar en el orden inverso al introducido.
+
+# 3. Para recorrer un array de un modo más práctico y sencillo, sin que tengamos que preocuparnos de los límites, podemos utilizar el bucle for con el formato foreach
 
       public class ArrayForEach {
       public static void main(String[] args) {
